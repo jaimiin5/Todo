@@ -42,13 +42,13 @@ input {
 
 .addbar i {
     position: relative;
-    bottom: 30px;
+    bottom: 35px;
     left: 330px;
 
 }
 .remove-btn {
-    position: fixed;
-    right: 510px;
+    position: absolute;
+    left: 290px;
     background-color: rgb(183, 183, 183);
     border-radius: 1px;
     border: none;
@@ -58,8 +58,8 @@ input {
 }
 
 .edit-btn {
-    position: fixed;
-    right: 580px;
+    position: absolute;
+    left: 240px;
     background-color: rgb(1, 152, 227);
     border-radius: 1px;
     border: none;
@@ -98,4 +98,3 @@ ul {
     background-color: #ffffff;
 }
 
-/* change */
